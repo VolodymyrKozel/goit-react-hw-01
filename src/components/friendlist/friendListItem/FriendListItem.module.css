@@ -1,0 +1,20 @@
+.item {
+  text-align: center;
+}
+.avatar {
+    margin-bottom: 12px;
+}
+.name {
+
+}
+.status {
+font-size: 12px;
+}
+.online {
+    composes: status;
+    color: green;
+}
+.offline {
+    composes: status;
+    color: red;
+}
