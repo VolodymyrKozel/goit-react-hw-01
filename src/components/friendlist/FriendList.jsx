@@ -1,6 +1,6 @@
-import { FriendListItem } from './friendListItem/FriendListItem';
+import FriendListItem  from './friendListItem/FriendListItem';
 import css from './FriendList.module.css';
-export const FriendList = ({ friends }) => {
+const FriendList = ({ friends }) => {
   return (
     <ul className={css['friends-list']}>
       {friends.map(friend => (
@@ -11,3 +11,5 @@ export const FriendList = ({ friends }) => {
     </ul>
   );
 };
+
+export default FriendList;

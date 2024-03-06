@@ -1,4 +1,4 @@
-export const TableItem = ({ transactions }) => {
+const TableItem = ({ transactions }) => {
   return (
     <>
       {transactions.map(({id, type, amount, currency}) => (
@@ -11,3 +11,4 @@ export const TableItem = ({ transactions }) => {
     </>
   );
 };
+export default TableItem;

@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import css from './FriendListItem.module.css';
 
-export const FriendListItem = ({ friend }) => {
+const FriendListItem = ({ friend }) => {
   return (
     <div className={css['item']}>
       <img
@@ -21,3 +21,4 @@ export const FriendListItem = ({ friend }) => {
     </div>
   );
 };
+export default FriendListItem;

@@ -1,7 +1,7 @@
 import css from './TransactionHistory.module.css';
-import { TableItem } from './tableitem/TableItem';
+import TableItem  from './tableitem/TableItem';
 
-export const TransactionHistory = ({transactions}) => {
+const TransactionHistory = ({transactions}) => {
   return (
     <table className={css['transactions-history']}>
       <thead>
@@ -18,3 +18,4 @@ export const TransactionHistory = ({transactions}) => {
     </table>
   );
 };
+export default TransactionHistory;
